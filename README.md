@@ -4,6 +4,17 @@
 
 La aplicación *CalcPopulationMin* sirve para calcular el tamaño mínimo de la población que sería necesaria para que al menos un número *k* de hijos tengan el mismo genotipo que su padre para un carácter en concreto del cual conocemos su frecuencia de combinación de genes *p*. Este es un problema típico de genética cuantitativa. Para solucionar este problema es necesario resolver la siguiente ecuación:
 
+![Esta es una imagen de la ecuación](/app/equation_population_min.gif)
+
+donde:
+
+            p = Probabilidad 'p' de que un hijo sea como su padre, frecuencia de combinación de genes.
+            k = Número 'k' de hijos que al menos quieres que sean como su padre.
+            P = Error que asumimos.
+            N = Tamaño mínimo de la población necesaria.
+
+Como se puede observar, resolver esta ecuación de forma manual se vuelve inviable para un número *k* alto. Esta es la razón de la existencia de esta aplicación informática, ahora con esta calculadora puedes obtener el resultado de una forma más rápida.
+
 
 
 ## Aspectos a tener en cuenta al realizar el cálculo
